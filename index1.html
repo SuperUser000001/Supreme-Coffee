@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-Show</title>
+    <style>
+        .cont1 {
+            width: 180px;
+            height: 300px;
+            background-color: #c17a48ff;
+            padding: 20px;
+            border: 1px solid #ccc;   
+            border-radius: 8px;       
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            text-align: center; 
+        }
+
+        .font {
+            font-size: 16px; 
+            color: white;
+            margin: 10px 0; 
+        }
+
+        img {
+            width: 180px;
+            height: 200px;
+            border-radius: 8px; 
+        }
+
+        .btn-cont {
+            display: flex; 
+            gap: 10px; 
+        }
+
+        .btn {
+            width: 40px;
+            height: 40px;
+            background-color: #b6846bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            position: relative; 
+        }
+
+        .ver {
+            position: absolute;
+            width: 10px;
+            height: 30px;
+            background-color: rgb(2, 2, 2);       
+        }
+
+        .gor { 
+            position: relative;
+            width: 30px;
+            height: 10px;
+            background-color: rgb(2, 2, 2);
+        }
+        input{
+            width: 40px;
+            height: 40px;
+            font-size: 26px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont1">
+        <img src="img/1.png" alt="Coffee Image">
+        <p class="font">Name Supreme Coffee</p>
+        <div class="btn-cont">
+            <div class="btn">
+                <div class="ver"></div>
+            </div>
+            <input type="text"/>
+            <div class="btn"  onClick="plus">
+                <div class="ver"></div>
+                <div class="gor"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+n=0;
+function plus(){
+n++;
+
+};
+
+</script>
+</html>

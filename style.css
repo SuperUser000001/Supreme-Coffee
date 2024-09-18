@@ -1,0 +1,13 @@
+.cont1{
+    width: 300px;
+    height: 500px;
+    background-color: c17a48ff;
+    font-size: 14;
+    color: white;
+    padding: 20px;             /* Внутренние отступы */
+    border: 1px solid #ccc;    /* Рамка вокруг контейнера */
+    border-radius: 8px;        /* Скругление углов */
+    max-width: 600px;          /* Максимальная ширина */
+    margin: 20px auto;         /* Выравнивание по центру страницы */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
